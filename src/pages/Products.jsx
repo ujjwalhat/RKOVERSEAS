@@ -12,7 +12,7 @@ import {
   jarData,
   pumpkinData,
   vasedata,
-  votivesData
+  votivesData,
 } from "../../storedata/mydata";
 import { Select, SelectItem } from "@nextui-org/react";
 import ProdCard from "../components/ProdCard";
@@ -46,7 +46,6 @@ const Products = () => {
     ...pumpkinData,
     ...vasedata,
     ...votivesData,
-
   ];
   function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -80,7 +79,7 @@ const Products = () => {
       setItems(pumpkinData);
     } else if (category === "10") {
       setItems(vasedata);
-    }else if (category === "11") {
+    } else if (category === "11") {
       setItems(votivesData);
     } else {
       setItems(randomItems);
@@ -96,7 +95,7 @@ const Products = () => {
             items={cats}
             label="Category"
             placeholder="Select an Category"
-            className="w-full md:w-[20vw]"
+            className="md:w-full lg:w-[20vw] sm:w-full"
           >
             {(cat) => (
               <SelectItem onClick={() => setCategory(cat.key)}>
