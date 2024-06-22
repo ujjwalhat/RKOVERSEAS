@@ -40,7 +40,7 @@ export default function NNavbar() {
         />
         <NavbarBrand>
           <img src={logo} width={100}  className="h-14 object-cover mr-3 rounded-full w-14"/>
-          <p className="font-bold text-inherit">RK OVERSEAS</p>
+          <Link className="font-bold text-inherit " as={Link} to="/" color="foreground" href="#" >RK OVERSEAS</Link>
         </NavbarBrand>
       </NavbarContent>
 
