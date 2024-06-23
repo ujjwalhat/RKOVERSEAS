@@ -2,280 +2,280 @@ export const antiqueData = [
   {
     id: 1,
     name: "Geometric Flower Vase",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_1.png",
   },
   {
     id: 2,
     name: "Gold and Black Goblet",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_2.png",
   },
   {
     id: 3,
     name: "Gold-Top Vase",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_3.png",
   },
   {
     id: 4,
     name: "Gold Chalice",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_4.png",
   },
   {
     id: 5,
     name: "Gold Patterned Vase",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_5.png",
   },
   {
     id: 6,
     name: "Gold and Black Jar",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_6.png",
   },
   {
     id: 7,
     name: "Candle Holders Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_7.png",
   },
   {
     id: 8,
     name: "Goblets and Orbs Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_8.png",
   },
   {
     id: 9,
     name: "Conical Decorations Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_9.png",
   },
   {
     id: 10,
     name: "Decorative Jars Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_10.png",
   },
   {
     id: 11,
     name: "Gold Bowl Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_11.png",
   },
   {
     id: 12,
     name: "Gold Goblet and Bowl Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_12.png",
   },
   {
     id: 13,
     name: "Gold Cups Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_13.png",
   },
   {
     id: 14,
     name: "Gold Tea Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_14.png",
   },
   {
     id: 15,
     name: "Gold Textured Vases Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_15.png",
   },
   {
     id: 16,
     name: "Gold Bulb Vase",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_16.png",
   },
   {
     id: 17,
     name: "Gold Figurine",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_17.png",
   },
   {
     id: 18,
     name: "Gold Bowls Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_18.png",
   },
   {
     id: 19,
     name: "Gold Cups and Bowl Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_19.png",
   },
   {
     id: 20,
     name: "Rustic Vases Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_20.png",
   },
   {
     id: 21,
     name: "Rustic Cylinder Vases Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_21.png",
   },
   {
     id: 22,
     name: "Rustic Jar Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_22.png",
   },
   {
     id: 23,
     name: "Patterned Jars Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_23.png",
   },
   {
     id: 24,
     name: "Rustic Bulb Vases Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_24.png",
   },
   {
     id: 25,
     name: "Textured Vases Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_25.png",
   },
   {
     id: 26,
     name: "Blue Glass Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_26.png",
   },
   {
     id: 27,
     name: "Patterned Glass Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_27.png",
   },
   {
     id: 28,
     name: "Antique Glass Collection",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_28.png",
   },
   {
     id: 29,
     name: "Clear Glass Jars Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_29.png",
   },
   {
     id: 30,
     name: "Clear and Gold Jars Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_30.png",
   },
   {
     id: 31,
     name: "Shelf of Antique Items",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_31.png",
   },
   {
     id: 32,
     name: "Striped Flower Vases Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_32.png",
   },
   {
     id: 33,
     name: "Floral Pattern Jar",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_33.png",
   },
   {
     id: 34,
     name: "Colorful Mugs Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_34.png",
   },
   {
     id: 35,
     name: "Ornate Jars Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_35.png",
   },
   {
     id: 36,
     name: "Antique Goblets Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_36.png",
   },
   {
     id: 37,
     name: "Decorative Storage Jars Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_37.png",
   },
   {
     id: 38,
     name: "Intricate Jars Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_38.png",
   },
   {
     id: 39,
     name: "Geometric Pattern Jars Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_39.png",
   },
   {
     id: 40,
     name: "Tall Rustic Vases Set",
-    category: "antique",
+    category: "Antique",
     imageUrl:
       "https://res.cloudinary.com/dndg4fwia/image/upload/v1718962798/1_40.png",
   },
