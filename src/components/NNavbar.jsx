@@ -20,20 +20,21 @@ import {
 import logo from "../assets/images/logo.jpg";
 import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function NNavbar() {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const location = useLocation();
 
   const menuItems = [
     { name: "Catalogs", path: "/catalogs" },
-    { name: "Gallery", path: "/gallery" },
+    { name: "Home", path: "/" },
     { name: "Products", path: "/products" },
   ];
 
   const handleEmail = () => {
-    window.location.href = `mailto:rkoverseas.online@gmail.com?subject=Inquiry about products&body=I am interested in the from the antique collection.`;
+    window.location.href = `mailto:rkoverseas.online@gmail.com?subject=Inquiry about products&body=I am interested in establishing a business with you.`;
   };
 
   const handlePhone = () => {
@@ -63,30 +64,22 @@ export default function NNavbar() {
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
-          <Link to="/catalogs" className="font-bold text-inherit">
-            Catalogs
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link to="/gallery" className="font-bold text-inherit">
-            Gallery
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link to="/products" className="font-bold text-inherit">
-            Products
-          </Link>
-        </NavbarItem>
+        {menuItems.map((item, index) => (
+          <NavbarItem key={index}>
+            <Link
+              to={item.path}
+              className={`font-bold ${
+                location.pathname === item.path ? "text-blue-500" : "text-inherit"
+              }`}
+            >
+              {item.name}
+            </Link>
+          </NavbarItem>
+        ))}
       </NavbarContent>
-      <NavbarContent justify="end" >
-        <NavbarItem >
-          <Button
-            onPress={onOpen}
-            color="warning"
-            variant="flat"
-            
-          >
+      <NavbarContent justify="end">
+        <NavbarItem>
+          <Button onPress={onOpen} color="warning" variant="flat">
             Contact Us
           </Button>
           <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
@@ -97,14 +90,16 @@ export default function NNavbar() {
                     RK Overseas Contact Us
                   </ModalHeader>
                   <ModalBody>
-                    <p>
+                    <div>
                       <h1 className="font-bold">ADDRESS</h1>
-                      RK OVERSEAS B-5,6 UPSIDC, Industrial Area, Firozabad, UP,
-                      INDIA - 283203
-                    </p>
-                    <p>
+                      <p>
+                        RK OVERSEAS B-5,6 UPSIDC, Industrial Area, Firozabad, UP,
+                        INDIA - 283203
+                      </p>
+                    </div>
+                    <div>
                       <h1 className="font-bold">Email</h1>
-                      <div className="flex">
+                      <div className="flex items-center">
                         <p>rkoverseas.online@gmail.com</p>
                         <button
                           className="text-2xl text-blue-500 ml-2"
@@ -113,10 +108,10 @@ export default function NNavbar() {
                           <MdEmail />
                         </button>
                       </div>
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                       <h1 className="font-bold">Phone</h1>
-                      <div className="flex">
+                      <div className="flex items-center">
                         <p>+91 8057548235</p>
                         <button
                           className="text-2xl text-green-500 ml-2"
@@ -125,7 +120,7 @@ export default function NNavbar() {
                           <IoCall />
                         </button>
                       </div>
-                    </p>
+                    </div>
                   </ModalBody>
                   <ModalFooter>
                     <Button color="primary" onClick={handleEmail}>
@@ -151,11 +146,7 @@ export default function NNavbar() {
             <Link
               to={item.path}
               className={`w-full font-bold ${
-                index === 2
-                  ? "text-primary"
-                  : index === menuItems.length - 1
-                  ? "text-danger"
-                  : "text-inherit"
+                location.pathname === item.path ? "text-blue-500" : "text-inherit"
               }`}
             >
               {item.name}
