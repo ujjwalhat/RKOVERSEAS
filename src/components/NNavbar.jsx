@@ -34,11 +34,11 @@ export default function NNavbar() {
   ];
 
   const handleEmail = () => {
-    window.location.href = `mailto:rkoverseas.online@gmail.com?subject=Inquiry about products&body=I am interested in establishing a business with you.`;
+    window.location.href = `mailto:skinirdosh@gmail.com?subject=Inquiry about products&body=I am interested in enquiring about a certain product section.`;
   };
 
   const handlePhone = () => {
-    window.location.href = `tel:8057548235`;
+    window.location.href = `tel:9557306306`;
   };
 
   return (
@@ -69,7 +69,9 @@ export default function NNavbar() {
             <Link
               to={item.path}
               className={`font-bold ${
-                location.pathname === item.path ? "text-blue-500" : "text-inherit"
+                location.pathname === item.path
+                  ? "text-blue-500"
+                  : "text-inherit"
               }`}
             >
               {item.name}
@@ -79,10 +81,17 @@ export default function NNavbar() {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button onPress={onOpen} color="warning" variant="flat">
+          <Button onClick={onOpen} color="warning" variant="flat">
             Contact Us
           </Button>
-          <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
+
+          <Modal
+            isOpen={isOpen}
+            onOpenChange={onOpenChange}
+            type
+            Justify="center"
+            autoMargin={true}
+          >
             <ModalContent>
               {(onClose) => (
                 <>
@@ -93,14 +102,14 @@ export default function NNavbar() {
                     <div>
                       <h1 className="font-bold">ADDRESS</h1>
                       <p>
-                        RK OVERSEAS B-5,6 UPSIDC, Industrial Area, Firozabad, UP,
-                        INDIA - 283203
+                        RK OVERSEAS B-5,6 UPSIDC, Industrial Area, Firozabad,
+                        UP, INDIA - 283203
                       </p>
                     </div>
                     <div>
                       <h1 className="font-bold">Email</h1>
                       <div className="flex items-center">
-                        <p>rkoverseas.online@gmail.com</p>
+                        <p>skinirdosh@gmail.com</p>
                         <button
                           className="text-2xl text-blue-500 ml-2"
                           onClick={handleEmail}
@@ -112,7 +121,7 @@ export default function NNavbar() {
                     <div>
                       <h1 className="font-bold">Phone</h1>
                       <div className="flex items-center">
-                        <p>+91 8057548235</p>
+                        <p>+91 9557306306</p>
                         <button
                           className="text-2xl text-green-500 ml-2"
                           onClick={handlePhone}
@@ -146,7 +155,9 @@ export default function NNavbar() {
             <Link
               to={item.path}
               className={`w-full font-bold ${
-                location.pathname === item.path ? "text-blue-500" : "text-inherit"
+                location.pathname === item.path
+                  ? "text-blue-500"
+                  : "text-inherit"
               }`}
             >
               {item.name}

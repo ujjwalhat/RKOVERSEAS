@@ -22,20 +22,9 @@ const Footer = () => {
                   Address
                 </h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                  <li className="mb-4">
-                   
-                    B5, UPSIDC, Industrial Area
-                   
-                  </li>
-                  <li className="mb-4">
-                   
-                    Firozabad-283203, UP, INDIA
-                    
-                    
-                  </li>
-                  <li>
-                    Contact Info : 8057548235
-                  </li>
+                  <li className="mb-4">B-5,6 UPSIDC, Industrial Area</li>
+                  <li className="mb-4">Firozabad-283203, UP, INDIA</li>
+                  <li>Contact Info : +91 9557306306</li>
                 </ul>
               </div>
               <div>
@@ -51,7 +40,6 @@ const Footer = () => {
                       Linked In
                     </a>
                   </li>
-                  
                 </ul>
               </div>
               <div>

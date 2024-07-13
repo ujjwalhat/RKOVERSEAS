@@ -16,7 +16,7 @@ import {
 } from "../../storedata/mydata";
 import { Select, SelectItem } from "@nextui-org/react";
 import ProdCard from "../components/ProdCard";
-import SelectCat from "../components/SelectCat";
+
 
 const Products = () => {
   const cats = [
@@ -90,7 +90,7 @@ const Products = () => {
     <>
       <NNavbar />
       <div className="mt-4 flex justify-center items-center">
-        <div className="lg:w-[30vw] sm:w-[30vw] w-[32vw] ">
+        <div className="lg:w-[30vw] sm:w-[35vw] w-[50vw] ">
           <Select
             items={cats}
             label="Category"
