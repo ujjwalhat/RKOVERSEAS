@@ -24,7 +24,8 @@ const Footer = () => {
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li className="mb-4">B-5,6 UPSIDC, Industrial Area</li>
                   <li className="mb-4">Firozabad-283203, UP, INDIA</li>
-                  <li>Contact Info : +91 9557306306</li>
+                  <li>Contact Info : <br></br>+91 9557306306</li>
+                  <li>skinirdosh@gmail.com</li>
                 </ul>
               </div>
               <div>
@@ -78,7 +79,7 @@ const Footer = () => {
                 <svg
                   className="w-4 h-4"
                   aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns="/"
                   fill="currentColor"
                   viewBox="0 0 8 19"
                 >
@@ -97,7 +98,7 @@ const Footer = () => {
                 <svg
                   className="w-4 h-4"
                   aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns="/"
                   fill="currentColor"
                   viewBox="0 0 21 16"
                 >
@@ -112,7 +113,7 @@ const Footer = () => {
                 <svg
                   className="w-4 h-4"
                   aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns="/"
                   fill="currentColor"
                   viewBox="0 0 20 17"
                 >
@@ -131,7 +132,7 @@ const Footer = () => {
                 <svg
                   className="w-4 h-4"
                   aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns="/"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -150,7 +151,7 @@ const Footer = () => {
                 <svg
                   className="w-4 h-4"
                   aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns="/"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
