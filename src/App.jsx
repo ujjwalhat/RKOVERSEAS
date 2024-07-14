@@ -5,7 +5,7 @@ import Products from './pages/Products'
 import Catalogs from './pages/Catalogs'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>

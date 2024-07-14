@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -7,14 +8,12 @@ const Footer = () => {
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 col ">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
-              <a
-                href="https://rkoverseas.onrender.com/"
-                className="flex items-center"
+              <Link
+                className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+                to="/"
               >
-                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                  RK Overseas
-                </span>
-              </a>
+                RK Overseas
+              </Link>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
@@ -24,7 +23,9 @@ const Footer = () => {
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li className="mb-4">B-5,6 UPSIDC, Industrial Area</li>
                   <li className="mb-4">Firozabad-283203, UP, INDIA</li>
-                  <li>Contact Info : <br></br>+91 9557306306</li>
+                  <li>
+                    Contact Info : <br></br>+91 9557306306
+                  </li>
                   <li>skinirdosh@gmail.com</li>
                 </ul>
               </div>

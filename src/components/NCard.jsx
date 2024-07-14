@@ -10,13 +10,15 @@ export default function NCard({ title, subtitle, description, imageSrc }) {
         <h4 className="font-bold text-large">{title}</h4>
       </CardHeader>
       <CardBody className="overflow-visible py-2">
-        <Image
-          alt="Card background"
-          className="object-cover rounded-xl"
-          src={imageSrc}
-          width={270}
-        />
+        <a href={imageSrc} target="_blank" rel="noopener noreferrer">
+          <Image
+            alt="Card background"
+            className="object-cover rounded-xl"
+            src={imageSrc}
+            width={270}
+          />
+        </a>
       </CardBody>
-    </Card>   
+    </Card>
   );
 }

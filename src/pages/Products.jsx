@@ -16,8 +16,6 @@ import {
 } from "../../storedata/mydata";
 import { Select, SelectItem } from "@nextui-org/react";
 import ProdCard from "../components/ProdCard";
-
-
 const Products = () => {
   const cats = [
     { key: "0", label: "All Items" },
