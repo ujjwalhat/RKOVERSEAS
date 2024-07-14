@@ -17,12 +17,14 @@ export default function ProdCard({ id, name, category, imageURL }) {
         <h4 className="font-bold text-large">{name}</h4>
       </CardHeader>
       <CardBody className="overflow-visible py-2">
-        <Image
-          alt="Card background"
-          className="object-cover rounded-xl"
-          src={imageURL}
-          width={270}
-        />
+        <a href={imageURL} target="_blank" rel="noopener noreferrer">
+          <Image
+            alt="Card background"
+            className="object-cover rounded-xl"
+            src={imageURL}
+            width={270}
+          />
+        </a>
       </CardBody>
     </Card>
   );
